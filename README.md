@@ -1,13 +1,18 @@
-# Robotics-with-Arduino_ver1
+# Robotics-with-Arduino_2021
 
 ---
 ## Introduction
-- C'est un projet de cours Project Innovation à ECM (1A). Le but de ce projet est de concevoir le jeu Saut en Longueur de Reiner Knizia's Decathlon.
-- Reiner Knizia's Decathlon est une série de 10 jeux de dés courts avec le thème libre des événements d'un Décathlon Olympique. Il se compose : 100 Mètres, Saut en Longueur, Lancer de Poids, Saut Enhauteur, 400 Mètres, 110 Mètres Haies, Lancer de Disque, Saut à La Perche, Javelot, 1500 Mètres.
-- Ici, dans notre projet, on va faire le jeu Saut en Longueur par HTML, CSS, JavaScript et Node.
+- C'est un projet de cours Project Innovation à ECM (1A). Le projet a pour objectif de se familiariser avec les problématiques rencontrées en robotique, il s’organisera en synergie avec le groupe d’élèves de 2A participant à la coupe de France de robotique.
+- L’objectif de ce projet est représentation de l’École au plus grand événement de robotique national : La Coupe de France de Robotique (CFR) 2021.
 
 ---
-## Règles du CFR
+## Règlement de CFR Général
+- Cette année (comme l’an dernier) , la Coupe de France de robotique a pour thème : « Sail the World »; et se concentre sur le domaine maritime.
+- Nous devons donc concevoir un robot et un phare qui vont devoir réaliser des tâches en rapport avec ce thème afin de gagner des points. Lors du concours, les robots des différentes équipes se rencontrent lors de matchs opposants deux équipes sur un terrain de 2 mètres par 3 mètres :
+  <p align="center">
+    <img src="https://user-images.githubusercontent.com/54052564/150683843-1a4257ba-3c8e-430c-8533-80842a31d256.png" />
+  </p>
+- Les robots de chaque équipe commencent dans leurs aires de départ respectives et ont alors 100 secondes pour réaliser différentes tâches afin de gagner un maximum de points.
 
 ---
 ## Annuaires
@@ -15,18 +20,18 @@
 BoardGame-LongJump :.
 ├─ Libraries
 │  ├─ BaseRoulante
-│  │  ├─ BaseRoulante.h
 │  │  ├─ BaseRoulante.cpp
+│  │  ├─ BaseRoulante.h
 │  │  └─ ...
 │  │
 │  ├─ DCMotor
-│  │  ├─ DCMotor.h
 │  │  ├─ DCMotor.cpp
+│  │  ├─ DCMotor.h
 │  │  └─ ...
 │  │
 │  └─ PID_v1
-│     ├─ PID_v1.h
 │     ├─ PID_v1.cpp
+│     ├─ PID_v1.h
 │     └─ ...
 │
 ├─ Phare
@@ -42,7 +47,12 @@ BoardGame-LongJump :.
 ```
 
 ---
+## Structure du Robot
+- 
+
+---
 ## Supports
+
 
 ---
 ## Référence
