@@ -57,7 +57,11 @@ Robotics with Arduino 2021 :.
 
 ---
 ## Travail Réalisé
-- 
+1. **Le Moteur avec Encodeur** : 
+2. **Le Capteur Ultrasonique** : Nous avons implémentéun système de capteurs afin de détecter les obstacles lors du déplacement du robot. Les capteurs mesurent la distance entre le robot et l'obstacle et si elle est inférieure à une distance critique, il stoppe sa progression. Le cas échéant, il poursuit son parsours.
+3. **Le Phare** : Il est une pièce à part entière du robot. Sa fonction est d'indiquer la parti rocheuse du plateau au robot. Au cours de la partie, le robot l'activera avec un contact physique et le phare va se déplier tout en s'éclairant. La levée du phare se fait par un système poulies et de cordage animés par un moteur.
+4. **Le Capteur de Couleur** : Disposée au centre de la table de jeu, la girouette indique la zone de mouillage dans laquelle les robots doivent se trouver à la fin du match. Sur cette girouette, elle se décline en deux couleurs différentes. Nous utilisons ce capteur pour détecter la couleur et faire savoir au robot ce que la girouette indique.
+5. **Le Pavillon** : Il sert à montrer les couleurs de notre école en faisant lever par le robot les différents drapeaux au cours de la partie. Il est positionné sur la face latérale du robot. Le hissage des pavillons se fait par un système de roue et railles crantés.
 
 ---
 ## Supports
